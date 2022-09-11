@@ -1,0 +1,137 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.mnrega_app"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="31" />
+10
+11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+11-->/home/anon/Documents/GitHub/sih_mnrega_app/android/app/src/debug/AndroidManifest.xml:5:5-77
+11-->/home/anon/Documents/GitHub/sih_mnrega_app/android/app/src/debug/AndroidManifest.xml:5:22-75
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->/home/anon/Documents/GitHub/sih_mnrega_app/android/app/src/main/AndroidManifest.xml:4:5-67
+12-->/home/anon/Documents/GitHub/sih_mnrega_app/android/app/src/main/AndroidManifest.xml:4:22-64
+13    <uses-permission android:name="android.permission.CAMERA" /> <!-- optionally, if you want to record audio: -->
+13-->/home/anon/Documents/GitHub/sih_mnrega_app/android/app/src/main/AndroidManifest.xml:5:5-65
+13-->/home/anon/Documents/GitHub/sih_mnrega_app/android/app/src/main/AndroidManifest.xml:5:22-62
+14    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+14-->/home/anon/Documents/GitHub/sih_mnrega_app/android/app/src/main/AndroidManifest.xml:8:1-67
+14-->/home/anon/Documents/GitHub/sih_mnrega_app/android/app/src/main/AndroidManifest.xml:8:18-64
+15    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+15-->[com.facebook.flipper:flipper:0.125.0] /home/anon/.gradle/caches/transforms-3/95e931fbbfdb29d8fe263063f71e1fc3/transformed/jetified-flipper-0.125.0/AndroidManifest.xml:16:5-76
+15-->[com.facebook.flipper:flipper:0.125.0] /home/anon/.gradle/caches/transforms-3/95e931fbbfdb29d8fe263063f71e1fc3/transformed/jetified-flipper-0.125.0/AndroidManifest.xml:16:22-73
+16    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+16-->[:react-native-fs] /home/anon/Documents/GitHub/sih_mnrega_app/node_modules/react-native-fs/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-81
+16-->[:react-native-fs] /home/anon/Documents/GitHub/sih_mnrega_app/node_modules/react-native-fs/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:22-78
+17
+18    <queries>
+18-->[androidx.camera:camera-extensions:1.1.0-beta02] /home/anon/.gradle/caches/transforms-3/8532c674938e289f57a1e9fb0027bc91/transformed/jetified-camera-extensions-1.1.0-beta02/AndroidManifest.xml:24:5-28:15
+19        <intent>
+19-->[androidx.camera:camera-extensions:1.1.0-beta02] /home/anon/.gradle/caches/transforms-3/8532c674938e289f57a1e9fb0027bc91/transformed/jetified-camera-extensions-1.1.0-beta02/AndroidManifest.xml:25:9-27:18
+20            <action android:name="androidx.camera.extensions.action.VENDOR_ACTION" />
+20-->[androidx.camera:camera-extensions:1.1.0-beta02] /home/anon/.gradle/caches/transforms-3/8532c674938e289f57a1e9fb0027bc91/transformed/jetified-camera-extensions-1.1.0-beta02/AndroidManifest.xml:26:13-86
+20-->[androidx.camera:camera-extensions:1.1.0-beta02] /home/anon/.gradle/caches/transforms-3/8532c674938e289f57a1e9fb0027bc91/transformed/jetified-camera-extensions-1.1.0-beta02/AndroidManifest.xml:26:21-83
+21        </intent>
+22    </queries>
+23
+24    <application
+24-->/home/anon/Documents/GitHub/sih_mnrega_app/android/app/src/main/AndroidManifest.xml:10:5-31:19
+25        android:name="com.mnrega_app.MainApplication"
+25-->/home/anon/Documents/GitHub/sih_mnrega_app/android/app/src/main/AndroidManifest.xml:11:7-38
+26        android:allowBackup="false"
+26-->/home/anon/Documents/GitHub/sih_mnrega_app/android/app/src/main/AndroidManifest.xml:15:7-34
+27        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+27-->[androidx.core:core:1.7.0] /home/anon/.gradle/caches/transforms-3/b5a8e99dac667ebea08e9f9757d3b404/transformed/core-1.7.0/AndroidManifest.xml:24:18-86
+28        android:debuggable="true"
+29        android:icon="@mipmap/ic_launcher"
+29-->/home/anon/Documents/GitHub/sih_mnrega_app/android/app/src/main/AndroidManifest.xml:13:7-41
+30        android:label="@string/app_name"
+30-->/home/anon/Documents/GitHub/sih_mnrega_app/android/app/src/main/AndroidManifest.xml:12:7-39
+31        android:roundIcon="@mipmap/ic_launcher_round"
+31-->/home/anon/Documents/GitHub/sih_mnrega_app/android/app/src/main/AndroidManifest.xml:14:7-52
+32        android:theme="@style/AppTheme"
+32-->/home/anon/Documents/GitHub/sih_mnrega_app/android/app/src/main/AndroidManifest.xml:16:7-38
+33        android:usesCleartextTraffic="true" >
+33-->/home/anon/Documents/GitHub/sih_mnrega_app/android/app/src/main/AndroidManifest.xml:17:7-42
+34        <activity
+34-->/home/anon/Documents/GitHub/sih_mnrega_app/android/app/src/debug/AndroidManifest.xml:11:9-111
+35            android:name="com.facebook.react.devsupport.DevSettingsActivity"
+35-->/home/anon/Documents/GitHub/sih_mnrega_app/android/app/src/debug/AndroidManifest.xml:11:19-83
+36            android:exported="false" />
+36-->/home/anon/Documents/GitHub/sih_mnrega_app/android/app/src/debug/AndroidManifest.xml:11:84-108
+37        <activity
+37-->/home/anon/Documents/GitHub/sih_mnrega_app/android/app/src/main/AndroidManifest.xml:19:7-30:18
+38            android:name="com.mnrega_app.MainActivity"
+38-->/home/anon/Documents/GitHub/sih_mnrega_app/android/app/src/main/AndroidManifest.xml:20:9-37
+39            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode"
+39-->/home/anon/Documents/GitHub/sih_mnrega_app/android/app/src/main/AndroidManifest.xml:22:9-118
+40            android:exported="true"
+40-->/home/anon/Documents/GitHub/sih_mnrega_app/android/app/src/main/AndroidManifest.xml:25:9-32
+41            android:label="@string/app_name"
+41-->/home/anon/Documents/GitHub/sih_mnrega_app/android/app/src/main/AndroidManifest.xml:21:9-41
+42            android:launchMode="singleTask"
+42-->/home/anon/Documents/GitHub/sih_mnrega_app/android/app/src/main/AndroidManifest.xml:23:9-40
+43            android:windowSoftInputMode="adjustResize" >
+43-->/home/anon/Documents/GitHub/sih_mnrega_app/android/app/src/main/AndroidManifest.xml:24:9-51
+44            <intent-filter>
+44-->/home/anon/Documents/GitHub/sih_mnrega_app/android/app/src/main/AndroidManifest.xml:26:9-29:25
+45                <action android:name="android.intent.action.MAIN" />
+45-->/home/anon/Documents/GitHub/sih_mnrega_app/android/app/src/main/AndroidManifest.xml:27:13-65
+45-->/home/anon/Documents/GitHub/sih_mnrega_app/android/app/src/main/AndroidManifest.xml:27:21-62
+46
+47                <category android:name="android.intent.category.LAUNCHER" />
+47-->/home/anon/Documents/GitHub/sih_mnrega_app/android/app/src/main/AndroidManifest.xml:28:13-73
+47-->/home/anon/Documents/GitHub/sih_mnrega_app/android/app/src/main/AndroidManifest.xml:28:23-70
+48            </intent-filter>
+49        </activity>
+50
+51        <uses-library
+51-->[androidx.camera:camera-extensions:1.1.0-beta02] /home/anon/.gradle/caches/transforms-3/8532c674938e289f57a1e9fb0027bc91/transformed/jetified-camera-extensions-1.1.0-beta02/AndroidManifest.xml:31:9-33:40
+52            android:name="androidx.camera.extensions.impl"
+52-->[androidx.camera:camera-extensions:1.1.0-beta02] /home/anon/.gradle/caches/transforms-3/8532c674938e289f57a1e9fb0027bc91/transformed/jetified-camera-extensions-1.1.0-beta02/AndroidManifest.xml:32:13-59
+53            android:required="false" />
+53-->[androidx.camera:camera-extensions:1.1.0-beta02] /home/anon/.gradle/caches/transforms-3/8532c674938e289f57a1e9fb0027bc91/transformed/jetified-camera-extensions-1.1.0-beta02/AndroidManifest.xml:33:13-37
+54
+55        <service
+55-->[androidx.camera:camera-camera2:1.1.0-beta02] /home/anon/.gradle/caches/transforms-3/9b3943986c6f8e4b9fc73beae22e7911/transformed/jetified-camera-camera2-1.1.0-beta02/AndroidManifest.xml:26:9-35:19
+56            android:name="androidx.camera.core.impl.MetadataHolderService"
+56-->[androidx.camera:camera-camera2:1.1.0-beta02] /home/anon/.gradle/caches/transforms-3/9b3943986c6f8e4b9fc73beae22e7911/transformed/jetified-camera-camera2-1.1.0-beta02/AndroidManifest.xml:27:13-75
+57            android:enabled="false"
+57-->[androidx.camera:camera-camera2:1.1.0-beta02] /home/anon/.gradle/caches/transforms-3/9b3943986c6f8e4b9fc73beae22e7911/transformed/jetified-camera-camera2-1.1.0-beta02/AndroidManifest.xml:28:13-36
+58            android:exported="false" >
+58-->[androidx.camera:camera-camera2:1.1.0-beta02] /home/anon/.gradle/caches/transforms-3/9b3943986c6f8e4b9fc73beae22e7911/transformed/jetified-camera-camera2-1.1.0-beta02/AndroidManifest.xml:29:13-37
+59            <meta-data
+59-->[androidx.camera:camera-camera2:1.1.0-beta02] /home/anon/.gradle/caches/transforms-3/9b3943986c6f8e4b9fc73beae22e7911/transformed/jetified-camera-camera2-1.1.0-beta02/AndroidManifest.xml:32:13-34:89
+60                android:name="androidx.camera.core.impl.MetadataHolderService.DEFAULT_CONFIG_PROVIDER"
+60-->[androidx.camera:camera-camera2:1.1.0-beta02] /home/anon/.gradle/caches/transforms-3/9b3943986c6f8e4b9fc73beae22e7911/transformed/jetified-camera-camera2-1.1.0-beta02/AndroidManifest.xml:33:17-103
+61                android:value="androidx.camera.camera2.Camera2Config$DefaultProvider" />
+61-->[androidx.camera:camera-camera2:1.1.0-beta02] /home/anon/.gradle/caches/transforms-3/9b3943986c6f8e4b9fc73beae22e7911/transformed/jetified-camera-camera2-1.1.0-beta02/AndroidManifest.xml:34:17-86
+62        </service>
+63
+64        <provider
+64-->[androidx.emoji2:emoji2:1.0.0] /home/anon/.gradle/caches/transforms-3/31798a0ea3f25ea98e44c876b4851b08/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:26:9-34:20
+65            android:name="androidx.startup.InitializationProvider"
+65-->[androidx.emoji2:emoji2:1.0.0] /home/anon/.gradle/caches/transforms-3/31798a0ea3f25ea98e44c876b4851b08/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:27:13-67
+66            android:authorities="com.mnrega_app.androidx-startup"
+66-->[androidx.emoji2:emoji2:1.0.0] /home/anon/.gradle/caches/transforms-3/31798a0ea3f25ea98e44c876b4851b08/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:28:13-68
+67            android:exported="false" >
+67-->[androidx.emoji2:emoji2:1.0.0] /home/anon/.gradle/caches/transforms-3/31798a0ea3f25ea98e44c876b4851b08/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:29:13-37
+68            <meta-data
+68-->[androidx.emoji2:emoji2:1.0.0] /home/anon/.gradle/caches/transforms-3/31798a0ea3f25ea98e44c876b4851b08/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:31:13-33:52
+69                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+69-->[androidx.emoji2:emoji2:1.0.0] /home/anon/.gradle/caches/transforms-3/31798a0ea3f25ea98e44c876b4851b08/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:32:17-75
+70                android:value="androidx.startup" />
+70-->[androidx.emoji2:emoji2:1.0.0] /home/anon/.gradle/caches/transforms-3/31798a0ea3f25ea98e44c876b4851b08/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:33:17-49
+71            <meta-data
+71-->[androidx.lifecycle:lifecycle-process:2.4.0] /home/anon/.gradle/caches/transforms-3/39517e1b011367242185b54afc0b3c9e/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:31:13-33:52
+72                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+72-->[androidx.lifecycle:lifecycle-process:2.4.0] /home/anon/.gradle/caches/transforms-3/39517e1b011367242185b54afc0b3c9e/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:32:17-78
+73                android:value="androidx.startup" />
+73-->[androidx.lifecycle:lifecycle-process:2.4.0] /home/anon/.gradle/caches/transforms-3/39517e1b011367242185b54afc0b3c9e/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:33:17-49
+74        </provider>
+75    </application>
+76
+77</manifest>

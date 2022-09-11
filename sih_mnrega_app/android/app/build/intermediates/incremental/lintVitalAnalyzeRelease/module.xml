@@ -1,0 +1,19 @@
+<lint-module
+    format="1"
+    dir="/home/anon/Documents/GitHub/sih_mnrega_app/android/app"
+    name=":app"
+    type="APP"
+    maven="mnrega_app:app:"
+    gradle="7.1.1"
+    buildFolder="build"
+    bootClassPath="/home/anon/Android/Sdk/platforms/android-31/android.jar:/home/anon/Android/Sdk/build-tools/30.0.3/core-lambda-stubs.jar"
+    javaSourceLevel="1.8"
+    compileTarget="android-31"
+    neverShrinking="true">
+  <lintOptions
+      abortOnError="true"
+      absolutePaths="true"
+      checkReleaseBuilds="true"
+      explainIssues="true"/>
+  <variant name="release"/>
+</lint-module>

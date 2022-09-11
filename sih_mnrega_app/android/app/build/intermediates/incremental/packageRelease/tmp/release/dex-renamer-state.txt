@@ -1,0 +1,7 @@
+#Fri Aug 26 13:27:54 IST 2022
+base.1=/home/anon/Documents/GitHub/sih_mnrega_app/android/app/build/intermediates/dex/release/mergeDexRelease/classes2.dex
+path.1=classes2.dex
+base.0=/home/anon/Documents/GitHub/sih_mnrega_app/android/app/build/intermediates/dex/release/mergeDexRelease/classes.dex
+renamed.1=classes2.dex
+renamed.0=classes.dex
+path.0=classes.dex
